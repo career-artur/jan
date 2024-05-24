@@ -1896,7 +1896,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Free','Font Awesome 5 Free Regular';
 			font-weight: 400;
 		}
 
@@ -1909,7 +1909,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Free Regular','Font Awesome 5 Brands';
 		}
 
 		.icon.circle {
@@ -1934,13 +1934,13 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: #70aecd;
+			.icon.circle.fa-instagram {
+				background: #8a3ab9;
 				color: #fff;
 			}
 
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+				.icon.circle.fa-instagram:hover {
+					background: #a573c2;
 				}
 
 			.icon.circle.fa-facebook-f {
@@ -1952,31 +1952,13 @@ input, select, textarea {
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus-g {
+			.icon.circle.envelope {
 				background: #db6b67;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus-g:hover {
+				.icon.circle.envelope:hover {
 					background: #df7b77;
-				}
-
-			.icon.circle.fa-github {
-				background: #dcad8b;
-				color: #fff;
-			}
-
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: #fff;
-			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
 				}
 
 		.icon.featured {
